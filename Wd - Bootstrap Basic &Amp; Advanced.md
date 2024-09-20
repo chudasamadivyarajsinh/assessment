@@ -16,6 +16,24 @@ console screen.
 ### ans:-
 
 ```html
+**Framework Web
+Designing Assessment
+Test 3**
+* Create bootstrap image gallery (Lightbox gallery).
+*  After execution of the code following result must be displayed.
+
+* Make sure each business logic is denoted with appropriate comments and
+make your code interactive and represent clean and clear output on your
+console screen.
+* Implement this code using following concepts
+1. custom css
+2. custom jQuery
+
+
+
+### ans:-
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,6 +58,7 @@ console screen.
 </style>
 </head>
 <body>
+    <!-- modal-1 -->
     <div class="modal" id="mymodal1">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -52,7 +71,7 @@ console screen.
             </div>
         </div>
     </div>
-
+     <!-- modal-2 -->
     <div class="modal" id="mymodal2">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -66,6 +85,8 @@ console screen.
         </div>
     </div>
 
+
+        <!-- modal-3 -->
     <div class="modal" id="mymodal3">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -78,7 +99,7 @@ console screen.
             </div>
         </div>
     </div>
-
+<!-- modal-4 -->
     <div class="modal" id="mymodal4">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -91,7 +112,7 @@ console screen.
             </div>
         </div>
     </div>
-
+<!-- modal-5 -->
     <div class="modal" id="mymodal5">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -104,7 +125,7 @@ console screen.
             </div>
         </div>
     </div>
-    
+    <!-- modal-6 -->
     <div class="modal" id="mymodal6">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -117,7 +138,7 @@ console screen.
             </div>
         </div>
     </div>
-
+<!-- modal-7 -->
     <div class="modal" id="mymodal7">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -130,7 +151,7 @@ console screen.
             </div>
         </div>
     </div>
-
+<!-- modal-8 -->
     <div class="modal" id="mymodal8">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -143,7 +164,7 @@ console screen.
             </div>
         </div>
     </div>
-
+<!-- modal-9 -->
     <div class="modal" id="mymodal9">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -159,51 +180,60 @@ console screen.
     <div class="container d-flex flex-column gap-2 mx-5 my-0 ">
         
         <div class="row d-flex gap-2">
+
+            <!-- image-1 -->
             <div class="col m-0 p-0 ">
                 <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#mymodal1">
                  <img src="https://wallpaper.forfun.com/fetch/54/54384b5fd4634be174c409ecf47a38be.jpeg" class="img-fluid" alt="">
                 </button>
                 </div>
+                <!-- image-2 -->
             <div class="col m-0 p-0">
                 <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#mymodal2">
                 <img src="https://ashisheditz.com/wp-content/uploads/2024/02/tom-and-jerry-photo-editing-edited.jpg" class="img-fluid" alt="">
             </button>
             </div>
+            <!-- image-3 -->
             <div class="col m-0 p-0">
                 <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#mymodal3">
                 <img src="https://ashisheditz.com/wp-content/uploads/2024/02/Tom-and-Jerry-are-seen-studying-at-night.jpg" class="img-fluid" alt="">
             </button>
             </div>
         </div>
-        
+        <!-- image-4 -->
         <div class="row d-flex gap-2">
             <div class="col m-0 p-0">
                 <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#mymodal4">
                 <img src="https://ashisheditz.com/wp-content/uploads/2024/02/tom-and-jerry-photo-png.jpg" class="img-fluid" alt="">
             </button>
             </div>
+            <!-- image-5 -->
             <div class="col m-0 p-0">
                 <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#mymodal5">
                 <img src="https://ashisheditz.com/wp-content/uploads/2024/02/tom-and-jerry-photo-editing-background-edited.jpg" class="img-fluid" alt="">
             </button>
             </div>
+            <!-- image-6 -->
             <div class="col m-0 p-0">
                 <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#mymodal6">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4qlPe17JxXFEomepbazYKeULzBQN_eK4DYkIdDasM5nFQZAHih8vpyP8hVtcPEk_0fR0&usqp=CAU" class="img-fluid" alt="">
             </button>
             </div>
         </div>
+        <!-- image-7 -->
         <div class="row d-flex gap-2">
             <div class="col m-0 p-0">
                 <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#mymodal7">
                 <img src="https://ashisheditz.com/wp-content/uploads/2024/02/c67ded86-54bc-4c5c-a309-64e531c92b35.jpg" class="img-fluid" alt="">
             </button>
             </div>
+            <!-- image-8 -->
             <div class="col m-0 p-0">
                 <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#mymodal8">
                 <img src="https://ashisheditz.com/wp-content/uploads/2024/02/Chand-Sitara-Decoration-and-Tom-Jerry-are-seen-drinking-coffee.jpg" class="img-fluid" alt="">
             </button>
             </div>
+            <!-- image-9 -->
             <div class="col m-0 p-0">
                 <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#mymodal9"> 
                 <img src="https://ashisheditz.com/wp-content/uploads/2024/02/Jari-and-Tom-have-taken-a-photo-wearing-a-gold-garland.jpg" class="img-fluid" alt="">
@@ -218,4 +248,5 @@ console screen.
 </html>
 </body>
 </html>
+```
 ```
