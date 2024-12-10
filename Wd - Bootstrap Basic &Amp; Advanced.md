@@ -16,6 +16,24 @@ console screen.
 ### ans:-
 
 ```html
+**Framework Web
+Designing Assessment
+Test 3**
+* Create bootstrap image gallery (Lightbox gallery).
+*  After execution of the code following result must be displayed.
+
+* Make sure each business logic is denoted with appropriate comments and
+make your code interactive and represent clean and clear output on your
+console screen.
+* Implement this code using following concepts
+1. custom css
+2. custom jQuery
+
+
+
+### ans:-
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -230,4 +248,5 @@ console screen.
 </html>
 </body>
 </html>
+```
 ```
